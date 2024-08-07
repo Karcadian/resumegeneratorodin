@@ -1,0 +1,43 @@
+.app {
+  display: flex;
+  height: 100vh;
+  background-color: #242424; /* Ensure background color matches index.css */
+}
+
+.sidebar {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.card {
+  background: #3a3a3a; /* Greyish background */
+  color: #ffffff; /* White text for better contrast */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Slightly darker shadow for better contrast */
+}
+
+.resume-container {
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  background-color: #ffffff; /* White background */
+  color: #000000; /* Black text */
+}
+
+.resume-preview {
+  width: 8.5in;
+  height: 11in;
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
